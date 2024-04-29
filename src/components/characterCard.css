@@ -1,0 +1,20 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    width: 18rem;    
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    align-self: center;
+}
+
+.card div {
+    text-align: left;
+}

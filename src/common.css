@@ -1,0 +1,30 @@
+.main-contiainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.search-button {
+    margin-left: 20px;
+}
+
+.character-grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.radio {
+    padding: 0 10px;
+}
